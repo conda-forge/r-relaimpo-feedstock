@@ -1,4 +1,4 @@
-{% set version = "2.2-4" %}
+{% set version = "2.2-5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/relaimpo_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/relaimpo/relaimpo_{{ version }}.tar.gz
-  sha256: d5aed66c0eae5f8a80575c9d61bb35c2e97fec593d0e9bb6a6559fb7a5e1de93
+  sha256: 7fd12f6fac553b4cbb13688756bb94594a9e6db151fa389aaec6b816f359de6c
 
 build:
   merge_build_host: true  # [win]
