@@ -1,11 +1,11 @@
-About r-relaimpo
-================
+About r-relaimpo-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-relaimpo-feedstock/blob/main/LICENSE.txt)
 
 Home: http://prof.beuth-hochschule.de/groemping/relaimpo/, http://prof.beuth-hochschule.de/groemping/
 
 Package license: GPL-2
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-relaimpo-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides several metrics for assessing relative importance in linear models. These can be printed, plotted and bootstrapped. The recommended metric is lmg, which provides a decomposition of the model explained variance into non-negative contributions. There is a version of this package available that additionally provides a new and also recommended metric called pmvd. If you are a non-US user, you can download this extended version from Ulrike Groempings web site.
 
